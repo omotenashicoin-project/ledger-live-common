@@ -1664,7 +1664,7 @@ const cryptocurrenciesById: { [name: string]: CryptoCurrency } = {
   },
   mtns: {
     type: "CryptoCurrency",
-    id: "mtns",
+    id: "OmotenashiCoin",
     coinType: 341,
     name: "OmotenashiCoin",
     managerAppName: "OmotenashiCoin",
