@@ -1662,6 +1662,40 @@ const cryptocurrenciesById: { [name: string]: CryptoCurrency } = {
       }
     ]
   },
+  mtns: {
+    type: "CryptoCurrency",
+    id: "mtns",
+    coinType: 341,
+    name: "OmotenashiCoin",
+    managerAppName: "OmotenashiCoin",
+    ticker: "MTNS",
+    scheme: "mtns",
+    color: "0x9E96AA",
+    family: "bitcoin",
+    blockAvgTime: 90,
+    bitcoinLikeInfo: {
+      P2PKH: 65,
+      P2SH: 13
+    },
+    units: [
+      {
+        name: "OmotenashiCoin",
+        code: "MTNS",
+        magnitude: 8
+      },
+      {
+        name: "satoshi",
+        code: "sat",
+        magnitude: 0
+      }
+    ],
+    explorerViews: [
+      {
+        tx: "http://mtns.hashexplorer.net:8015/tx/$hash",
+        address: "http://mtns.hashexplorer.net:8015/address/$address"
+      }
+    ]
+  },
   poa: {
     type: "CryptoCurrency",
     id: "poa",
